@@ -187,7 +187,7 @@ services:
         max-size: "30m"
         max-file: "30"
     ports:
-      - "27017:27017"
+      - ${MONGODB_HOST_INTERFACE}:27017:27017
 
   redis-base:
     hostname: ${HOSTNAME_BASE}-redis

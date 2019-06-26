@@ -26,8 +26,8 @@ SCRIPTDIR = os.path.dirname(os.path.realpath(__file__))
 FEDNODE_CONFIG_FILE = ".fednode.config"
 FEDNODE_CONFIG_PATH = os.path.join(SCRIPTDIR, FEDNODE_CONFIG_FILE)
 
-REPO_BASE_HTTPS = "https://github.com/CounterpartyXCP/{}.git"
-REPO_BASE_SSH = "git@github.com:CounterpartyXCP/{}.git"
+REPO_BASE_HTTPS = "https://github.com/ilovelili/{}.git"
+REPO_BASE_SSH = "git@github.com:ilovelili/{}.git"
 REPOS_BASE = ['counterparty-lib', 'counterparty-cli', 'indexd-server']
 REPOS_COUNTERBLOCK = REPOS_BASE + ['counterblock', ]
 REPOS_FULL = REPOS_COUNTERBLOCK + ['counterwallet', 'armory-utxsvr']
